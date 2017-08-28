@@ -3,6 +3,7 @@ function scarm() {
     var x = 5,
         y = 20,
         sum = x + y;
+    x.innerText = toString(sum);
     console.log(sum);
-    x.innerHTML = sum.toString();
+
 }
