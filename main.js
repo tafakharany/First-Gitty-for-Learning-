@@ -1,8 +1,8 @@
 function scarm() {
     var x = document.getElementById("dv");
-    var x = 5,
-        y = 20,
-        sum = x + y;
+    var y = 5,
+        z = 20,
+        sum = y + z;
 
     console.log(sum);
 
