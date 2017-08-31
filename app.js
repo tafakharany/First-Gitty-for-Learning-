@@ -30,3 +30,17 @@ mybutton.onclick = function() {
     }, 200);
 };
 */
+//Hide Password
+var myBtn = document.getElementById('my-btn'),
+    myInput = document.getElementById('my-input');
+
+myBtn.onclick = function() {
+    "use strict";
+    if (myBtn.textContent === 'Show password') {
+        myInput.setAttribute('type', 'text');
+        myBtn.textContent = 'Hide Password';
+    } else if (myBtn.textContent === 'Hide Password') {
+        myInput.setAttribute('type', 'password');
+        myBtn.textContent = 'Show password';
+    }
+};
