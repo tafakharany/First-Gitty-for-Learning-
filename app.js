@@ -1,3 +1,4 @@
+//PlaceHolder  
 /*var myInput = document.getElementById("my-input");
 
 myInput.onfocus = function() {
@@ -12,6 +13,8 @@ myInput.onblur = function() {
     myInput.setAttribute("data-place", " ");
 };*/
 
+/*TypeWriter*/
+/*
 var myText =
     "Create an offline installation of Visual Studio 2017 If you are looking for an offline option for installing Visual Studio 2017, we can point you in the right direction. If you want to install a single instance of Visual Studio 2017 but your internet connection is unavailable or unreliable, see our Install Visual Studio 2017 on low bandwidth or unreliable network environments page. If you are an enterprise administrator who wants to perform a large deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our Create a network installation of Visual Studio 2017 and Special considerations for installing Visual Studio in an offline environment pages.",
     i = 0,
@@ -26,3 +29,4 @@ mybutton.onclick = function() {
             clearInterval(typeWriter, 100);
     }, 200);
 };
+*/
